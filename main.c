@@ -6,30 +6,30 @@
 int main(int argc, char** argv) {
 	/**
 	Look at the picture of the program structure on HW09.
-	In all cases, the program must be designed to operate as shown in the picture.
+	In all cases, the program must operate as shown in the picture.
 	
-	To operate program until the user selects Quit, we use while statement.
+	To operate program, we use while statement.
 	Each time the variable 'select' receives an integer value from the keyboard.
 	
-	There are five cases;
+	There are five cases:
 	
 	case 1) Input name and phone number from keyboard and pass arguments to Push function.
-	list receives return value of Push function that makes linked list.
+	Push: receives return value of Push function that makes linked list.
 	
-	case 2) Pass argument to printList function.
-	printList function shows linked list from head to tail.
+	case 2) Call printList function.
+	printList: Print linked list from head to tail.
 	
 	case 3) Input name from keyboard and pass arguments to Search function.
-	Search function finds name in list and prints the name and phone number of it.
+	Search: Finds item in list using name and prints the name and phone number.
 	
 	case 4) Input name from keyboard and pass arguments to Delete function.
-	Delete function finds name in list and deletes it from linked list.
+	Delete: Finds item in list using name and deletes it from linked list.
 	
-	case 5) Quit the program.
-	It alreay implemented.
+	case 5) Exit the program.
+	Already implemented.
 	
 	You should write the appropriate arguments in the todo part.
-	hint: Find out what factors to give through process.h.
+	hint: Read process.h carefully.
 	**/
 	
 	int select = 0;
