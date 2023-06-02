@@ -21,34 +21,26 @@ int main(int argc, char** argv) {
 				printf("Phone: ");
 				scanf("%s",phone);
 
-				//todo
-				list = Push(___[1]___);
-				//end
+				list = Push( //todo );
 				
 				break;
 			case 2:
 
-				//todo
-				printList(___[2]___);
-				//end
+				printList( //todo );
 
 				break;
 			case 3:
 				printf("Name: ");
 				scanf("%s",name);
 
-				//todo
-				Search(___[3]___);
-				//end
+				Search( //todo );
 
 				break;
 			case 4:
 				printf("Name: ");
 				scanf("%s",name);
 
-				//todo
-				Delete(___[4]___);
-				//end
+				Delete( //todo );
 
 				break;
 			case 5:
