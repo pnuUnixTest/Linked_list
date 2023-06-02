@@ -4,7 +4,7 @@
 #include "process.h"
 
 int main(int argc, char** argv) {
-	/*
+	/**
 	Look at the picture of the program structure on HW09.
 	In all cases, the program must be designed to operate as shown in the picture.
 	
@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
 	
 	You should write the appropriate arguments in the todo part.
 	hint: Find out what factors to give through process.h.
-	*/
+	**/
 	
 	int select = 0;
 	Person* list = NULL;
