@@ -5,7 +5,9 @@
 
 
 typedef struct Person{
-	// todo
+     char name[20];
+     char phone[20];
+     struct Person* next;
 } Person;
 
 
